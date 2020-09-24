@@ -47,3 +47,10 @@ while (bucle == True):
             bucle=True
 
 
+#Sumo los valores ingresados y muestro su resultado y su promedio
+d=int(a)
+e=int(b)
+f=int(c)
+suma=(d+e+f)
+promedio=(suma/3)
+print(f"al sumarlos a todos nos da {suma} y su media es {promedio}")
